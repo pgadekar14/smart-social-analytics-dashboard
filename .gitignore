@@ -2,6 +2,9 @@
 # (the app only needs the trained models in models/, which are already small)
 data/sentiment140.csv
 
+# SQLite prediction history - local/personal data, don't commit
+data/predictions.db
+
 # Python cache
 __pycache__/
 *.pyc

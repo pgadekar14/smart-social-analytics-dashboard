@@ -21,6 +21,9 @@ import streamlit as st
 from collections import Counter
 
 from watson_helper import get_watson_sentiment
+import db_helper
+
+db_helper.init_db()
 
 st.set_page_config(page_title="Social Media Sentiment Analytics", layout="wide")
 
@@ -101,6 +104,7 @@ page = st.sidebar.radio(
         "Audience Segmentation",
         "Trend Detection",
         "Engagement Prediction",
+        "Prediction History",
     ],
 )
 
@@ -160,6 +164,7 @@ elif page == "Live Prediction":
             pred, proba = predict_sentiment(user_text, model, vectorizer)
             emoji = "😊" if pred == "positive" else "😞"
             st.success(f"Predicted Sentiment: **{pred.upper()}** {emoji} (confidence: {proba*100:.1f}%)")
+            db_helper.log_prediction(user_text, pred, proba, source="Live Prediction")
 
 # ---------- Page 3: Batch Analysis ----------
 elif page == "Batch Analysis (Upload CSV)":
@@ -298,3 +303,34 @@ elif page == "Engagement Prediction":
             score = eng_model.predict(features)[0]
             st.success(f"Predicted (simulated) Engagement Score: **{score:.1f}**")
             st.caption("Higher score = more words, more hashtags, more excitement, positive tone.")
+
+# ---------- Page 8: Prediction History (SQLite backend) ----------
+elif page == "Prediction History":
+    st.title("🗄️ Prediction History (SQLite Database)")
+    st.markdown(
+        "Every prediction made on the **Live Prediction** page is logged to a local "
+        "SQLite database (`data/predictions.db`), demonstrating a real RDBMS backend "
+        "with Create, Read, and Delete operations."
+    )
+
+    total = db_helper.count_records()
+    st.metric("Total Logged Predictions", total)
+
+    rows = db_helper.get_history(limit=200)
+    if rows:
+        hist_df = pd.DataFrame(
+            rows, columns=["id", "text", "sentiment", "confidence", "source", "created_at"]
+        )
+        st.dataframe(hist_df, use_container_width=True)
+
+        fig = px.pie(hist_df, names="sentiment", title="Sentiment Split of Logged Predictions")
+        st.plotly_chart(fig, use_container_width=True)
+
+        st.divider()
+        st.warning("This will permanently delete all logged prediction history.")
+        if st.button("🗑️ Clear History"):
+            db_helper.clear_history()
+            st.success("History cleared.")
+            st.rerun()
+    else:
+        st.info("No predictions logged yet. Go to the 'Live Prediction' page and analyze some text first.")

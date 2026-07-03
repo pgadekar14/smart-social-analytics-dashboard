@@ -33,6 +33,16 @@ sentiment_project/
 | 3 | Trend/Hashtag Detection | Regex extraction + frequency count | Surfaces trending hashtags/keywords |
 | 4 | Engagement Prediction | Linear Regression | Trained on a **simulated** engagement score (Sentiment140 has no real likes/shares) — disclose this in your report |
 | 5 | Watson Comparison | IBM Watson NLU API | Side-by-side validation against your own model |
+| 6 | Prediction History | SQLite (RDBMS) | Logs every live prediction; Create/Read/Delete demonstrated |
+
+### Report fields (updated)
+
+| Field | What to write |
+|---|---|
+| Front-end Tool | Streamlit (Python-based web framework) |
+| Backend Tool | Python (Streamlit server-side logic) |
+| RDBMS/Database | SQLite — stores prediction history (`data/predictions.db`) |
+| Coding Technology | Python (pandas, scikit-learn, Streamlit, sqlite3) |
 
 A small **demo dataset** (600 synthetic reviews) is already placed in `data/sentiment140.csv`
 so you can run everything right now and confirm it works end-to-end. **Before your final
