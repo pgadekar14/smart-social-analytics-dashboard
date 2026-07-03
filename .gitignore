@@ -1,0 +1,14 @@
+# Large raw dataset - too big for GitHub, not needed for deployment
+# (the app only needs the trained models in models/, which are already small)
+data/sentiment140.csv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Streamlit secrets (never commit API keys)
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db

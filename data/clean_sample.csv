@@ -1,0 +1,601 @@
+text,sentiment,hashtags,num_hashtags,num_exclaim,clean_text,word_count,cluster,engagement_score,sentiment_positive
+This flight is fantastic and works perfectly,positive,[],0,0,this flight is fantastic and works perfectly,7,2,51.47999694564074,1
+Completely unhappy with my service purchase,negative,[],0,0,completely unhappy with my service purchase,6,0,31.15211558601456,0
+Really impressed with the laptop,positive,[],0,0,really impressed with the laptop,5,0,37.473228163320194,1
+This shoes is fantastic and works perfectly,positive,[],0,0,this shoes is fantastic and works perfectly,7,2,36.84966100895801,1
+This product is overpriced and useless,negative,[],0,0,this product is overpriced and useless,6,2,22.320346573489065,0
+Worst service experience of my life,negative,[],0,0,worst service experience of my life,6,2,14.59239744403034,0
+This delivery is overpriced and useless,negative,[],0,0,this delivery is overpriced and useless,6,2,25.50567273670146,0
+"I regret buying this movie, poor quality",negative,[],0,0,i regret buying this movie poor quality,7,2,17.151774792766258,0
+"The service never arrived, awful service",negative,[],0,0,the service never arrived awful service,6,1,23.59242917303349,0
+"Amazing flight quality, will buy again",positive,[],0,0,amazing flight quality will buy again,6,2,34.546192952458334,1
+"I regret buying this hotel, poor quality",negative,[],0,0,i regret buying this hotel poor quality,7,2,22.988222435850066,0
+Great customer service for my order,positive,[],0,0,great customer service for my order,6,3,28.403299031232173,1
+"The hotel is exactly what I needed, love it",positive,[],0,0,the hotel is exactly what i needed love it,9,1,39.45318063433353,1
+The delivery exceeded all my expectations,positive,[],0,0,the delivery exceeded all my expectations,6,1,41.238915344248326,1
+Superb flight at a great price,positive,[],0,0,superb flight at a great price,6,2,29.407848455928587,1
+Great customer service for my shoes,positive,[],0,0,great customer service for my shoes,6,3,38.134163186036794,1
+Worst product experience of my life,negative,[],0,0,worst product experience of my life,6,2,11.261960874991308,0
+The headphones stopped working immediately,negative,[],0,0,the headphones stopped working immediately,5,1,19.696686128705085,0
+This flight made my day so much better,positive,[],0,0,this flight made my day so much better,8,0,39.66790208571862,1
+"Awful experience with this shoes, avoid it",negative,[],0,0,awful experience with this shoes avoid it,7,1,18.87604135988287,0
+Terrible customer support for my gadget,negative,[],0,0,terrible customer support for my gadget,6,3,27.73360261500696,0
+Very disappointed with the shoes quality,negative,[],0,0,very disappointed with the shoes quality,6,0,18.110369255808227,0
+So happy with my service purchase,positive,[],0,0,so happy with my service purchase,6,0,37.62007955937993,1
+"I regret buying this headphones, poor quality",negative,[],0,0,i regret buying this headphones poor quality,7,2,20.07681194589736,0
+"This service broke after one day, terrible",negative,[],0,0,this service broke after one day terrible,7,3,18.06984471403733,0
+This hotel is overpriced and useless,negative,[],0,0,this hotel is overpriced and useless,6,2,23.1293228977704,0
+"The service never arrived, awful service",negative,[],0,0,the service never arrived awful service,6,1,24.118207058813095,0
+Thank you for such a wonderful delivery,positive,[],0,0,thank you for such a wonderful delivery,7,3,33.06869739709133,1
+"The restaurant never arrived, awful service",negative,[],0,0,the restaurant never arrived awful service,6,1,23.79074017562426,0
+"This headphones broke after one day, terrible",negative,[],0,0,this headphones broke after one day terrible,7,3,23.390722829767533,0
+Completely unhappy with my flight purchase,negative,[],0,0,completely unhappy with my flight purchase,6,0,26.342955995510724,0
+The shoes exceeded all my expectations,positive,[],0,0,the shoes exceeded all my expectations,6,1,33.207651615845364,1
+So happy with my order purchase,positive,[],0,0,so happy with my order purchase,6,0,31.225279070574114,1
+Great customer service for my hotel,positive,[],0,0,great customer service for my hotel,6,3,31.444404495216247,1
+"This service broke after one day, terrible",negative,[],0,0,this service broke after one day terrible,7,3,24.282113429912634,0
+I absolutely love this shoes!,positive,[],0,1,i absolutely love this shoes,5,2,49.35699987433114,1
+Really impressed with the movie,positive,[],0,0,really impressed with the movie,5,0,25.869552985655112,1
+"Best gadget experience ever, highly recommend",positive,[],0,0,best gadget experience ever highly recommend,6,2,32.667556072541764,1
+"Amazing restaurant quality, will buy again",positive,[],0,0,amazing restaurant quality will buy again,6,2,35.40001050284083,1
+"Amazing order quality, will buy again",positive,[],0,0,amazing order quality will buy again,6,2,39.36578366683359,1
+"This order broke after one day, terrible",negative,[],0,0,this order broke after one day terrible,7,3,14.293917211485923,0
+"The service is exactly what I needed, love it",positive,[],0,0,the service is exactly what i needed love it,9,1,33.88600994324934,1
+Worst service experience of my life,negative,[],0,0,worst service experience of my life,6,2,18.813922143166383,0
+So happy with my phone purchase,positive,[],0,0,so happy with my phone purchase,6,0,41.22539901681652,1
+The delivery stopped working immediately,negative,[],0,0,the delivery stopped working immediately,5,1,17.260899476885402,0
+Great customer service for my hotel,positive,[],0,0,great customer service for my hotel,6,3,28.32938680914986,1
+Superb product at a great price,positive,[],0,0,superb product at a great price,6,2,30.89666932647489,1
+"Best delivery experience ever, highly recommend",positive,[],0,0,best delivery experience ever highly recommend,6,2,40.174104284663755,1
+I absolutely love this service!,positive,[],0,1,i absolutely love this service,5,2,28.970123525981823,1
+"The product is exactly what I needed, love it",positive,[],0,0,the product is exactly what i needed love it,9,1,39.05362930958947,1
+Really impressed with the order,positive,[],0,0,really impressed with the order,5,0,35.781349063625456,1
+Great customer service for my gadget,positive,[],0,0,great customer service for my gadget,6,3,30.56704614621087,1
+"Best product experience ever, highly recommend",positive,[],0,0,best product experience ever highly recommend,6,2,36.14512696931088,1
+"This order is a scam, do not buy",negative,[],0,0,this order is a scam do not buy,8,2,23.240928160767066,0
+Worst gadget experience of my life,negative,[],0,0,worst gadget experience of my life,6,2,21.884510412154064,0
+Great customer service for my phone,positive,[],0,0,great customer service for my phone,6,3,37.67348238020601,1
+I absolutely love this laptop!,positive,[],0,1,i absolutely love this laptop,5,2,42.98732994558772,1
+"Amazing service quality, will buy again",positive,[],0,0,amazing service quality will buy again,6,2,32.78560582651722,1
+"This phone broke after one day, terrible",negative,[],0,0,this phone broke after one day terrible,7,3,18.75837978609754,0
+The headphones stopped working immediately,negative,[],0,0,the headphones stopped working immediately,5,1,19.308513809340475,0
+This phone made my day so much better,positive,[],0,0,this phone made my day so much better,8,0,39.371832259449256,1
+"I regret buying this shoes, poor quality",negative,[],0,0,i regret buying this shoes poor quality,7,2,18.362145162196352,0
+I absolutely love this phone!,positive,[],0,1,i absolutely love this phone,5,2,44.61074664717536,1
+The delivery stopped working immediately,negative,[],0,0,the delivery stopped working immediately,5,1,20.87207333587207,0
+"The gadget never arrived, awful service",negative,[],0,0,the gadget never arrived awful service,6,1,19.92004078447473,0
+Terrible customer support for my shoes,negative,[],0,0,terrible customer support for my shoes,6,3,23.188415659986546,0
+Great customer service for my laptop,positive,[],0,0,great customer service for my laptop,6,3,41.36478741779031,1
+The gadget exceeded all my expectations,positive,[],0,0,the gadget exceeded all my expectations,6,1,39.16398780176389,1
+"The gadget never arrived, awful service",negative,[],0,0,the gadget never arrived awful service,6,1,22.304562931583103,0
+This app is overpriced and useless,negative,[],0,0,this app is overpriced and useless,6,2,12.039074678414558,0
+Completely unhappy with my phone purchase,negative,[],0,0,completely unhappy with my phone purchase,6,0,18.956336182260035,0
+"The delivery is exactly what I needed, love it",positive,[],0,0,the delivery is exactly what i needed love it,9,1,40.992691248479886,1
+This laptop made my day so much better,positive,[],0,0,this laptop made my day so much better,8,0,35.36218384569048,1
+Really impressed with the movie,positive,[],0,0,really impressed with the movie,5,0,34.98348251312561,1
+"I hate this product, total waste of money",negative,[],0,0,i hate this product total waste of money,8,2,14.872654114145679,0
+The phone stopped working immediately,negative,[],0,0,the phone stopped working immediately,5,1,9.008998395691718,0
+Very disappointed with the app quality,negative,[],0,0,very disappointed with the app quality,6,0,22.728359050036524,0
+Great customer service for my app,positive,[],0,0,great customer service for my app,6,3,37.1571453606634,1
+"Awful experience with this hotel, avoid it",negative,[],0,0,awful experience with this hotel avoid it,7,1,26.19645818783792,0
+"Best phone experience ever, highly recommend",positive,[],0,0,best phone experience ever highly recommend,6,2,40.68344481959843,1
+The shoes stopped working immediately,negative,[],0,0,the shoes stopped working immediately,5,1,12.714807869608826,0
+The laptop stopped working immediately,negative,[],0,0,the laptop stopped working immediately,5,1,20.215761526153624,0
+Very disappointed with the headphones quality,negative,[],0,0,very disappointed with the headphones quality,6,0,22.2209437275582,0
+Superb delivery at a great price,positive,[],0,0,superb delivery at a great price,6,2,32.813106279428126,1
+"The order is exactly what I needed, love it",positive,[],0,0,the order is exactly what i needed love it,9,1,34.86965265116113,1
+The order exceeded all my expectations,positive,[],0,0,the order exceeded all my expectations,6,1,32.83350355039519,1
+Completely unhappy with my flight purchase,negative,[],0,0,completely unhappy with my flight purchase,6,0,11.72077083927317,0
+The flight stopped working immediately,negative,[],0,0,the flight stopped working immediately,5,1,17.21531641823443,0
+I absolutely love this shoes!,positive,[],0,1,i absolutely love this shoes,5,2,33.87488619573351,1
+"The phone never arrived, awful service",negative,[],0,0,the phone never arrived awful service,6,1,26.80328698390776,0
+Really impressed with the shoes,positive,[],0,0,really impressed with the shoes,5,0,35.48987635428872,1
+Thank you for such a wonderful app,positive,[],0,0,thank you for such a wonderful app,7,3,36.931000881538765,1
+"The app never arrived, awful service",negative,[],0,0,the app never arrived awful service,6,1,23.735279349007413,0
+"The movie never arrived, awful service",negative,[],0,0,the movie never arrived awful service,6,1,22.187536592951325,0
+"The phone is exactly what I needed, love it",positive,[],0,0,the phone is exactly what i needed love it,9,1,34.475223000546954,1
+The hotel exceeded all my expectations,positive,[],0,0,the hotel exceeded all my expectations,6,1,27.73301561772677,1
+Terrible customer support for my flight,negative,[],0,0,terrible customer support for my flight,6,3,15.027253782166348,0
+The shoes exceeded all my expectations,positive,[],0,0,the shoes exceeded all my expectations,6,1,23.790271779827805,1
+"The phone is exactly what I needed, love it",positive,[],0,0,the phone is exactly what i needed love it,9,1,47.111987900116105,1
+Worst movie experience of my life,negative,[],0,0,worst movie experience of my life,6,2,12.341709745670695,0
+"The shoes is exactly what I needed, love it",positive,[],0,0,the shoes is exactly what i needed love it,9,1,40.37826516321634,1
+"I hate this gadget, total waste of money",negative,[],0,0,i hate this gadget total waste of money,8,2,19.277265004522306,0
+Superb gadget at a great price,positive,[],0,0,superb gadget at a great price,6,2,27.29474286773992,1
+Thank you for such a wonderful delivery,positive,[],0,0,thank you for such a wonderful delivery,7,3,38.00713056236394,1
+So happy with my flight purchase,positive,[],0,0,so happy with my flight purchase,6,0,36.34085959588354,1
+"I hate this phone, total waste of money",negative,[],0,0,i hate this phone total waste of money,8,2,24.964066982141638,0
+The flight stopped working immediately,negative,[],0,0,the flight stopped working immediately,5,1,15.893768727929126,0
+"Amazing order quality, will buy again",positive,[],0,0,amazing order quality will buy again,6,2,31.28244586561423,1
+Superb phone at a great price,positive,[],0,0,superb phone at a great price,6,2,30.09967490320321,1
+Really impressed with the movie,positive,[],0,0,really impressed with the movie,5,0,36.47424993434581,1
+This gadget is overpriced and useless,negative,[],0,0,this gadget is overpriced and useless,6,2,9.11475079554461,0
+"This service broke after one day, terrible",negative,[],0,0,this service broke after one day terrible,7,3,17.143763815486242,0
+"I hate this phone, total waste of money",negative,[],0,0,i hate this phone total waste of money,8,2,23.29907143481676,0
+Completely unhappy with my headphones purchase,negative,[],0,0,completely unhappy with my headphones purchase,6,0,21.14753109588777,0
+This order is overpriced and useless,negative,[],0,0,this order is overpriced and useless,6,2,17.77719382142471,0
+"Best delivery experience ever, highly recommend",positive,[],0,0,best delivery experience ever highly recommend,6,2,39.79353261985252,1
+The service stopped working immediately,negative,[],0,0,the service stopped working immediately,5,1,11.08054947742134,0
+I absolutely love this delivery!,positive,[],0,1,i absolutely love this delivery,5,2,33.19695300498587,1
+Worst flight experience of my life,negative,[],0,0,worst flight experience of my life,6,2,15.138617693332998,0
+I absolutely love this restaurant!,positive,[],0,1,i absolutely love this restaurant,5,2,28.847989643873095,1
+The service stopped working immediately,negative,[],0,0,the service stopped working immediately,5,1,15.942331999470879,0
+"This hotel is a scam, do not buy",negative,[],0,0,this hotel is a scam do not buy,8,2,17.584962331070304,0
+"The shoes is exactly what I needed, love it",positive,[],0,0,the shoes is exactly what i needed love it,9,1,39.37541925847142,1
+"Awful experience with this laptop, avoid it",negative,[],0,0,awful experience with this laptop avoid it,7,1,17.923473275157836,0
+This laptop made my day so much better,positive,[],0,0,this laptop made my day so much better,8,0,45.831178591885276,1
+"I regret buying this restaurant, poor quality",negative,[],0,0,i regret buying this restaurant poor quality,7,2,19.271578634120484,0
+So happy with my delivery purchase,positive,[],0,0,so happy with my delivery purchase,6,0,33.66092858348772,1
+So happy with my delivery purchase,positive,[],0,0,so happy with my delivery purchase,6,0,31.522699027760133,1
+"Awful experience with this restaurant, avoid it",negative,[],0,0,awful experience with this restaurant avoid it,7,1,17.673069368758185,0
+"Best service experience ever, highly recommend",positive,[],0,0,best service experience ever highly recommend,6,2,34.14440992364334,1
+Very disappointed with the gadget quality,negative,[],0,0,very disappointed with the gadget quality,6,0,20.629179646581996,0
+"I regret buying this service, poor quality",negative,[],0,0,i regret buying this service poor quality,7,2,25.952438581774494,0
+I absolutely love this laptop!,positive,[],0,1,i absolutely love this laptop,5,2,33.10814660828925,1
+This restaurant made my day so much better,positive,[],0,0,this restaurant made my day so much better,8,0,27.737979723201395,1
+This flight is overpriced and useless,negative,[],0,0,this flight is overpriced and useless,6,2,15.325509259107669,0
+This delivery made my day so much better,positive,[],0,0,this delivery made my day so much better,8,0,34.3303938313971,1
+"Best laptop experience ever, highly recommend",positive,[],0,0,best laptop experience ever highly recommend,6,2,34.254621785067364,1
+This phone made my day so much better,positive,[],0,0,this phone made my day so much better,8,0,30.60662872711097,1
+This app is fantastic and works perfectly,positive,[],0,0,this app is fantastic and works perfectly,7,2,34.09813598716385,1
+Worst gadget experience of my life,negative,[],0,0,worst gadget experience of my life,6,2,22.406038964997432,0
+"Amazing delivery quality, will buy again",positive,[],0,0,amazing delivery quality will buy again,6,2,34.75877551414273,1
+Completely unhappy with my headphones purchase,negative,[],0,0,completely unhappy with my headphones purchase,6,0,22.061320718625645,0
+Great customer service for my headphones,positive,[],0,0,great customer service for my headphones,6,3,46.713418964144786,1
+Very disappointed with the product quality,negative,[],0,0,very disappointed with the product quality,6,0,10.456837269123373,0
+Superb headphones at a great price,positive,[],0,0,superb headphones at a great price,6,2,34.32706988850808,1
+"Awful experience with this delivery, avoid it",negative,[],0,0,awful experience with this delivery avoid it,7,1,27.926695483058587,0
+So happy with my hotel purchase,positive,[],0,0,so happy with my hotel purchase,6,0,25.344326102112177,1
+"I hate this shoes, total waste of money",negative,[],0,0,i hate this shoes total waste of money,8,2,16.77557847692413,0
+Terrible customer support for my service,negative,[],0,0,terrible customer support for my service,6,3,16.44303227515537,0
+"Best shoes experience ever, highly recommend",positive,[],0,0,best shoes experience ever highly recommend,6,2,23.097548524839013,1
+This product made my day so much better,positive,[],0,0,this product made my day so much better,8,0,34.489068930465116,1
+So happy with my restaurant purchase,positive,[],0,0,so happy with my restaurant purchase,6,0,40.889335062749815,1
+I absolutely love this delivery!,positive,[],0,1,i absolutely love this delivery,5,2,33.85706261289972,1
+"Amazing gadget quality, will buy again",positive,[],0,0,amazing gadget quality will buy again,6,2,37.86277140982889,1
+Terrible customer support for my gadget,negative,[],0,0,terrible customer support for my gadget,6,3,20.43568460973201,0
+Terrible customer support for my headphones,negative,[],0,0,terrible customer support for my headphones,6,3,15.292041998178487,0
+"Awful experience with this service, avoid it",negative,[],0,0,awful experience with this service avoid it,7,1,23.128838396628343,0
+This headphones made my day so much better,positive,[],0,0,this headphones made my day so much better,8,0,38.68743050080476,1
+Really impressed with the flight,positive,[],0,0,really impressed with the flight,5,0,32.06729946976448,1
+So happy with my restaurant purchase,positive,[],0,0,so happy with my restaurant purchase,6,0,35.788609770901004,1
+I absolutely love this restaurant!,positive,[],0,1,i absolutely love this restaurant,5,2,36.6663835777474,1
+Superb hotel at a great price,positive,[],0,0,superb hotel at a great price,6,2,32.72913117123669,1
+This gadget made my day so much better,positive,[],0,0,this gadget made my day so much better,8,0,31.113291549638376,1
+"I regret buying this phone, poor quality",negative,[],0,0,i regret buying this phone poor quality,7,2,15.820523252840342,0
+Thank you for such a wonderful hotel,positive,[],0,0,thank you for such a wonderful hotel,7,3,41.48147675947085,1
+"The phone is exactly what I needed, love it",positive,[],0,0,the phone is exactly what i needed love it,9,1,33.288532181327014,1
+The movie stopped working immediately,negative,[],0,0,the movie stopped working immediately,5,1,22.443383304019356,0
+"The service never arrived, awful service",negative,[],0,0,the service never arrived awful service,6,1,26.898786330669573,0
+"The gadget never arrived, awful service",negative,[],0,0,the gadget never arrived awful service,6,1,16.25045302550893,0
+"Amazing phone quality, will buy again",positive,[],0,0,amazing phone quality will buy again,6,2,37.71565222464037,1
+"I hate this delivery, total waste of money",negative,[],0,0,i hate this delivery total waste of money,8,2,23.168061845650506,0
+Great customer service for my order,positive,[],0,0,great customer service for my order,6,3,32.42792268695568,1
+Worst gadget experience of my life,negative,[],0,0,worst gadget experience of my life,6,2,12.998282372588157,0
+"This service is a scam, do not buy",negative,[],0,0,this service is a scam do not buy,8,2,19.006370478209238,0
+So happy with my hotel purchase,positive,[],0,0,so happy with my hotel purchase,6,0,39.71289379854048,1
+The app exceeded all my expectations,positive,[],0,0,the app exceeded all my expectations,6,1,44.64240668550553,1
+This shoes is overpriced and useless,negative,[],0,0,this shoes is overpriced and useless,6,2,18.45878186986812,0
+"The movie is exactly what I needed, love it",positive,[],0,0,the movie is exactly what i needed love it,9,1,43.322536747234395,1
+"Awful experience with this hotel, avoid it",negative,[],0,0,awful experience with this hotel avoid it,7,1,15.84306589573195,0
+"Amazing service quality, will buy again",positive,[],0,0,amazing service quality will buy again,6,2,32.30706705019519,1
+This shoes is overpriced and useless,negative,[],0,0,this shoes is overpriced and useless,6,2,21.511500480075586,0
+"I regret buying this movie, poor quality",negative,[],0,0,i regret buying this movie poor quality,7,2,12.517774929423272,0
+The app stopped working immediately,negative,[],0,0,the app stopped working immediately,5,1,15.227814817393217,0
+This hotel is overpriced and useless,negative,[],0,0,this hotel is overpriced and useless,6,2,15.148949843961447,0
+"The order never arrived, awful service",negative,[],0,0,the order never arrived awful service,6,1,21.11433971078114,0
+This product is fantastic and works perfectly,positive,[],0,0,this product is fantastic and works perfectly,7,2,38.42866053930748,1
+"I hate this laptop, total waste of money",negative,[],0,0,i hate this laptop total waste of money,8,2,25.32951657584111,0
+Thank you for such a wonderful product,positive,[],0,0,thank you for such a wonderful product,7,3,31.45110894511486,1
+"Amazing order quality, will buy again",positive,[],0,0,amazing order quality will buy again,6,2,40.791618259568686,1
+Terrible customer support for my gadget,negative,[],0,0,terrible customer support for my gadget,6,3,19.92445348974502,0
+"The hotel never arrived, awful service",negative,[],0,0,the hotel never arrived awful service,6,1,10.379337428639449,0
+Thank you for such a wonderful delivery,positive,[],0,0,thank you for such a wonderful delivery,7,3,37.98882519047001,1
+"This service broke after one day, terrible",negative,[],0,0,this service broke after one day terrible,7,3,18.08931975783507,0
+This order is fantastic and works perfectly,positive,[],0,0,this order is fantastic and works perfectly,7,2,32.088810895490084,1
+This movie is overpriced and useless,negative,[],0,0,this movie is overpriced and useless,6,2,24.01281716704881,0
+Completely unhappy with my product purchase,negative,[],0,0,completely unhappy with my product purchase,6,0,27.460868314108932,0
+"Awful experience with this hotel, avoid it",negative,[],0,0,awful experience with this hotel avoid it,7,1,26.82447466408876,0
+"The product is exactly what I needed, love it",positive,[],0,0,the product is exactly what i needed love it,9,1,35.88840900789793,1
+"This product is a scam, do not buy",negative,[],0,0,this product is a scam do not buy,8,2,17.00232681502767,0
+Terrible customer support for my product,negative,[],0,0,terrible customer support for my product,6,3,26.103313267839177,0
+This gadget is fantastic and works perfectly,positive,[],0,0,this gadget is fantastic and works perfectly,7,2,34.70845975588441,1
+Completely unhappy with my flight purchase,negative,[],0,0,completely unhappy with my flight purchase,6,0,18.422087620078898,0
+This restaurant made my day so much better,positive,[],0,0,this restaurant made my day so much better,8,0,43.303058757243946,1
+"Amazing restaurant quality, will buy again",positive,[],0,0,amazing restaurant quality will buy again,6,2,29.56622272383949,1
+This headphones is fantastic and works perfectly,positive,[],0,0,this headphones is fantastic and works perfectly,7,2,34.77363781799484,1
+So happy with my service purchase,positive,[],0,0,so happy with my service purchase,6,0,34.69755395789847,1
+Really impressed with the headphones,positive,[],0,0,really impressed with the headphones,5,0,26.762323440754678,1
+"I regret buying this headphones, poor quality",negative,[],0,0,i regret buying this headphones poor quality,7,2,12.224283947969983,0
+This product made my day so much better,positive,[],0,0,this product made my day so much better,8,0,34.277833988003636,1
+"This gadget broke after one day, terrible",negative,[],0,0,this gadget broke after one day terrible,7,3,6.362488987859194,0
+"Amazing flight quality, will buy again",positive,[],0,0,amazing flight quality will buy again,6,2,36.73579306910782,1
+Great customer service for my app,positive,[],0,0,great customer service for my app,6,3,35.23329193055328,1
+Really impressed with the service,positive,[],0,0,really impressed with the service,5,0,38.29465261361732,1
+Thank you for such a wonderful flight,positive,[],0,0,thank you for such a wonderful flight,7,3,36.38115590061873,1
+"The app is exactly what I needed, love it",positive,[],0,0,the app is exactly what i needed love it,9,1,37.50813418467156,1
+Thank you for such a wonderful product,positive,[],0,0,thank you for such a wonderful product,7,3,36.00474917116282,1
+Terrible customer support for my delivery,negative,[],0,0,terrible customer support for my delivery,6,3,13.045981923304591,0
+I absolutely love this app!,positive,[],0,1,i absolutely love this app,5,2,26.950870034135605,1
+So happy with my app purchase,positive,[],0,0,so happy with my app purchase,6,0,26.959195849271353,1
+Completely unhappy with my shoes purchase,negative,[],0,0,completely unhappy with my shoes purchase,6,0,24.886560245817428,0
+"I hate this movie, total waste of money",negative,[],0,0,i hate this movie total waste of money,8,2,33.3728233336573,0
+Superb service at a great price,positive,[],0,0,superb service at a great price,6,2,39.39598108783632,1
+Thank you for such a wonderful product,positive,[],0,0,thank you for such a wonderful product,7,3,31.80062667393383,1
+"Amazing service quality, will buy again",positive,[],0,0,amazing service quality will buy again,6,2,32.33170431601862,1
+"The phone is exactly what I needed, love it",positive,[],0,0,the phone is exactly what i needed love it,9,1,37.04128704016063,1
+The order stopped working immediately,negative,[],0,0,the order stopped working immediately,5,1,16.61503775468516,0
+Really impressed with the hotel,positive,[],0,0,really impressed with the hotel,5,0,36.07037993130568,1
+The movie stopped working immediately,negative,[],0,0,the movie stopped working immediately,5,1,17.162112830049573,0
+This delivery is overpriced and useless,negative,[],0,0,this delivery is overpriced and useless,6,2,17.924485342935114,0
+Completely unhappy with my restaurant purchase,negative,[],0,0,completely unhappy with my restaurant purchase,6,0,25.6264691595318,0
+Worst service experience of my life,negative,[],0,0,worst service experience of my life,6,2,14.932971067273993,0
+"Amazing delivery quality, will buy again",positive,[],0,0,amazing delivery quality will buy again,6,2,36.853628912943144,1
+Completely unhappy with my service purchase,negative,[],0,0,completely unhappy with my service purchase,6,0,19.650486077861657,0
+I absolutely love this product!,positive,[],0,1,i absolutely love this product,5,2,42.1030447610662,1
+"The laptop never arrived, awful service",negative,[],0,0,the laptop never arrived awful service,6,1,21.400343871282455,0
+This phone made my day so much better,positive,[],0,0,this phone made my day so much better,8,0,40.64891342671103,1
+This app is overpriced and useless,negative,[],0,0,this app is overpriced and useless,6,2,11.454791399199111,0
+This laptop is overpriced and useless,negative,[],0,0,this laptop is overpriced and useless,6,2,20.883921243493454,0
+"Awful experience with this shoes, avoid it",negative,[],0,0,awful experience with this shoes avoid it,7,1,23.448314902055444,0
+Worst gadget experience of my life,negative,[],0,0,worst gadget experience of my life,6,2,24.804927607795513,0
+I absolutely love this phone!,positive,[],0,1,i absolutely love this phone,5,2,33.201360902287625,1
+Completely unhappy with my hotel purchase,negative,[],0,0,completely unhappy with my hotel purchase,6,0,15.609300183532422,0
+Really impressed with the flight,positive,[],0,0,really impressed with the flight,5,0,31.58246064537756,1
+The phone exceeded all my expectations,positive,[],0,0,the phone exceeded all my expectations,6,1,37.642990897675254,1
+Great customer service for my service,positive,[],0,0,great customer service for my service,6,3,31.991630643792483,1
+The flight exceeded all my expectations,positive,[],0,0,the flight exceeded all my expectations,6,1,37.18268486560621,1
+I absolutely love this product!,positive,[],0,1,i absolutely love this product,5,2,36.692992983211305,1
+The restaurant stopped working immediately,negative,[],0,0,the restaurant stopped working immediately,5,1,24.1524892922891,0
+I absolutely love this restaurant!,positive,[],0,1,i absolutely love this restaurant,5,2,42.96989516289836,1
+This app is fantastic and works perfectly,positive,[],0,0,this app is fantastic and works perfectly,7,2,29.427970158076285,1
+This headphones made my day so much better,positive,[],0,0,this headphones made my day so much better,8,0,38.84631258810054,1
+This laptop is fantastic and works perfectly,positive,[],0,0,this laptop is fantastic and works perfectly,7,2,38.76433115627398,1
+"Amazing delivery quality, will buy again",positive,[],0,0,amazing delivery quality will buy again,6,2,14.77742474702428,1
+The shoes stopped working immediately,negative,[],0,0,the shoes stopped working immediately,5,1,20.589839784505685,0
+This restaurant made my day so much better,positive,[],0,0,this restaurant made my day so much better,8,0,42.79909961174233,1
+This phone is overpriced and useless,negative,[],0,0,this phone is overpriced and useless,6,2,20.943079130251036,0
+"The gadget never arrived, awful service",negative,[],0,0,the gadget never arrived awful service,6,1,25.049936685900384,0
+Thank you for such a wonderful delivery,positive,[],0,0,thank you for such a wonderful delivery,7,3,38.86545305370064,1
+Completely unhappy with my service purchase,negative,[],0,0,completely unhappy with my service purchase,6,0,14.439330984648024,0
+This laptop is fantastic and works perfectly,positive,[],0,0,this laptop is fantastic and works perfectly,7,2,32.32853355237343,1
+Completely unhappy with my movie purchase,negative,[],0,0,completely unhappy with my movie purchase,6,0,29.420454428848796,0
+Completely unhappy with my flight purchase,negative,[],0,0,completely unhappy with my flight purchase,6,0,26.931927222909994,0
+"The hotel never arrived, awful service",negative,[],0,0,the hotel never arrived awful service,6,1,27.963653322817738,0
+The restaurant stopped working immediately,negative,[],0,0,the restaurant stopped working immediately,5,1,17.28687809735345,0
+"The gadget is exactly what I needed, love it",positive,[],0,0,the gadget is exactly what i needed love it,9,1,42.29327134560091,1
+I absolutely love this service!,positive,[],0,1,i absolutely love this service,5,2,40.47036840787716,1
+This delivery made my day so much better,positive,[],0,0,this delivery made my day so much better,8,0,41.88171778016198,1
+"Amazing gadget quality, will buy again",positive,[],0,0,amazing gadget quality will buy again,6,2,30.176476533119338,1
+"Awful experience with this hotel, avoid it",negative,[],0,0,awful experience with this hotel avoid it,7,1,21.47493084317179,0
+The app stopped working immediately,negative,[],0,0,the app stopped working immediately,5,1,15.324070846991477,0
+"The gadget is exactly what I needed, love it",positive,[],0,0,the gadget is exactly what i needed love it,9,1,46.785946686363616,1
+The delivery stopped working immediately,negative,[],0,0,the delivery stopped working immediately,5,1,25.25730719220061,0
+"Amazing app quality, will buy again",positive,[],0,0,amazing app quality will buy again,6,2,30.13172691433714,1
+"The service never arrived, awful service",negative,[],0,0,the service never arrived awful service,6,1,27.430710211982596,0
+Very disappointed with the shoes quality,negative,[],0,0,very disappointed with the shoes quality,6,0,23.42035588630068,0
+"I hate this product, total waste of money",negative,[],0,0,i hate this product total waste of money,8,2,13.965505674991332,0
+"The gadget is exactly what I needed, love it",positive,[],0,0,the gadget is exactly what i needed love it,9,1,39.93357473004251,1
+"The headphones is exactly what I needed, love it",positive,[],0,0,the headphones is exactly what i needed love it,9,1,45.5656331833133,1
+"Awful experience with this laptop, avoid it",negative,[],0,0,awful experience with this laptop avoid it,7,1,20.087383241220195,0
+This order made my day so much better,positive,[],0,0,this order made my day so much better,8,0,36.912338741684124,1
+So happy with my service purchase,positive,[],0,0,so happy with my service purchase,6,0,41.233007051799724,1
+This app is overpriced and useless,negative,[],0,0,this app is overpriced and useless,6,2,8.179210129674118,0
+"The phone never arrived, awful service",negative,[],0,0,the phone never arrived awful service,6,1,18.079025709325737,0
+"This order is a scam, do not buy",negative,[],0,0,this order is a scam do not buy,8,2,14.88083678199774,0
+"This movie broke after one day, terrible",negative,[],0,0,this movie broke after one day terrible,7,3,17.122395526860178,0
+"This product is a scam, do not buy",negative,[],0,0,this product is a scam do not buy,8,2,27.197192199612925,0
+Very disappointed with the flight quality,negative,[],0,0,very disappointed with the flight quality,6,0,17.321605776615627,0
+Thank you for such a wonderful hotel,positive,[],0,0,thank you for such a wonderful hotel,7,3,39.955919290560686,1
+Great customer service for my phone,positive,[],0,0,great customer service for my phone,6,3,35.593560458821784,1
+This restaurant is overpriced and useless,negative,[],0,0,this restaurant is overpriced and useless,6,2,26.719446820486365,0
+"I hate this app, total waste of money",negative,[],0,0,i hate this app total waste of money,8,2,15.696254609045162,0
+Superb movie at a great price,positive,[],0,0,superb movie at a great price,6,2,37.86966665747965,1
+"Amazing service quality, will buy again",positive,[],0,0,amazing service quality will buy again,6,2,32.3528228323054,1
+"The gadget never arrived, awful service",negative,[],0,0,the gadget never arrived awful service,6,1,17.97613722123884,0
+"The delivery is exactly what I needed, love it",positive,[],0,0,the delivery is exactly what i needed love it,9,1,34.594571501962086,1
+I absolutely love this headphones!,positive,[],0,1,i absolutely love this headphones,5,2,44.773963030158406,1
+Really impressed with the service,positive,[],0,0,really impressed with the service,5,0,28.693210391628593,1
+"Awful experience with this flight, avoid it",negative,[],0,0,awful experience with this flight avoid it,7,1,24.475765152654706,0
+"Best restaurant experience ever, highly recommend",positive,[],0,0,best restaurant experience ever highly recommend,6,2,37.23001655928509,1
+"I regret buying this laptop, poor quality",negative,[],0,0,i regret buying this laptop poor quality,7,2,20.80888460215963,0
+I absolutely love this laptop!,positive,[],0,1,i absolutely love this laptop,5,2,31.883616748920463,1
+Really impressed with the restaurant,positive,[],0,0,really impressed with the restaurant,5,0,26.93001786350381,1
+"Best service experience ever, highly recommend",positive,[],0,0,best service experience ever highly recommend,6,2,39.28923823436452,1
+Completely unhappy with my flight purchase,negative,[],0,0,completely unhappy with my flight purchase,6,0,25.345114934046144,0
+This gadget is fantastic and works perfectly,positive,[],0,0,this gadget is fantastic and works perfectly,7,2,37.09704961984085,1
+"Best shoes experience ever, highly recommend",positive,[],0,0,best shoes experience ever highly recommend,6,2,34.57013628427992,1
+So happy with my app purchase,positive,[],0,0,so happy with my app purchase,6,0,36.64115941860795,1
+This phone is overpriced and useless,negative,[],0,0,this phone is overpriced and useless,6,2,20.121083423554236,0
+Completely unhappy with my laptop purchase,negative,[],0,0,completely unhappy with my laptop purchase,6,0,22.00556990593945,0
+This shoes is fantastic and works perfectly,positive,[],0,0,this shoes is fantastic and works perfectly,7,2,33.69108792319868,1
+So happy with my headphones purchase,positive,[],0,0,so happy with my headphones purchase,6,0,24.76324455094265,1
+This headphones made my day so much better,positive,[],0,0,this headphones made my day so much better,8,0,30.726273327386522,1
+Superb hotel at a great price,positive,[],0,0,superb hotel at a great price,6,2,42.53211847247823,1
+"This restaurant is a scam, do not buy",negative,[],0,0,this restaurant is a scam do not buy,8,2,18.88700924062354,0
+"I regret buying this phone, poor quality",negative,[],0,0,i regret buying this phone poor quality,7,2,19.63665154643155,0
+Very disappointed with the order quality,negative,[],0,0,very disappointed with the order quality,6,0,22.579837079640487,0
+I absolutely love this headphones!,positive,[],0,1,i absolutely love this headphones,5,2,35.22663958296989,1
+Great customer service for my restaurant,positive,[],0,0,great customer service for my restaurant,6,3,42.25312755449183,1
+"This delivery broke after one day, terrible",negative,[],0,0,this delivery broke after one day terrible,7,3,14.79247041560941,0
+"Best headphones experience ever, highly recommend",positive,[],0,0,best headphones experience ever highly recommend,6,2,39.0871386976197,1
+"Best order experience ever, highly recommend",positive,[],0,0,best order experience ever highly recommend,6,2,38.65496220105997,1
+Completely unhappy with my service purchase,negative,[],0,0,completely unhappy with my service purchase,6,0,18.772591977795763,0
+Terrible customer support for my gadget,negative,[],0,0,terrible customer support for my gadget,6,3,14.211446078280009,0
+"I hate this app, total waste of money",negative,[],0,0,i hate this app total waste of money,8,2,18.45762149077138,0
+"Best restaurant experience ever, highly recommend",positive,[],0,0,best restaurant experience ever highly recommend,6,2,29.084398420011752,1
+"Amazing laptop quality, will buy again",positive,[],0,0,amazing laptop quality will buy again,6,2,37.7406312231431,1
+Worst service experience of my life,negative,[],0,0,worst service experience of my life,6,2,21.56286447998187,0
+Worst shoes experience of my life,negative,[],0,0,worst shoes experience of my life,6,2,17.561455861912787,0
+"I regret buying this shoes, poor quality",negative,[],0,0,i regret buying this shoes poor quality,7,2,14.125872044756582,0
+I absolutely love this delivery!,positive,[],0,1,i absolutely love this delivery,5,2,44.690004905439075,1
+This movie is fantastic and works perfectly,positive,[],0,0,this movie is fantastic and works perfectly,7,2,25.15156669603418,1
+"This delivery is a scam, do not buy",negative,[],0,0,this delivery is a scam do not buy,8,2,21.00549487069701,0
+"I hate this shoes, total waste of money",negative,[],0,0,i hate this shoes total waste of money,8,2,16.661183451114873,0
+"I hate this order, total waste of money",negative,[],0,0,i hate this order total waste of money,8,2,23.59728826420966,0
+Really impressed with the phone,positive,[],0,0,really impressed with the phone,5,0,34.79464671061192,1
+This headphones is overpriced and useless,negative,[],0,0,this headphones is overpriced and useless,6,2,6.6996628837082515,0
+"The app is exactly what I needed, love it",positive,[],0,0,the app is exactly what i needed love it,9,1,40.24258008989203,1
+"This gadget broke after one day, terrible",negative,[],0,0,this gadget broke after one day terrible,7,3,20.982500592281315,0
+The laptop exceeded all my expectations,positive,[],0,0,the laptop exceeded all my expectations,6,1,33.16789757128835,1
+"Awful experience with this flight, avoid it",negative,[],0,0,awful experience with this flight avoid it,7,1,18.551638450156666,0
+Worst shoes experience of my life,negative,[],0,0,worst shoes experience of my life,6,2,8.073366686567027,0
+"I regret buying this delivery, poor quality",negative,[],0,0,i regret buying this delivery poor quality,7,2,25.532020240354996,0
+The gadget stopped working immediately,negative,[],0,0,the gadget stopped working immediately,5,1,18.180515157269877,0
+So happy with my shoes purchase,positive,[],0,0,so happy with my shoes purchase,6,0,37.701028021365325,1
+"This headphones broke after one day, terrible",negative,[],0,0,this headphones broke after one day terrible,7,3,24.92363829005761,0
+"I regret buying this app, poor quality",negative,[],0,0,i regret buying this app poor quality,7,2,14.291238635710975,0
+Terrible customer support for my hotel,negative,[],0,0,terrible customer support for my hotel,6,3,14.844546878628828,0
+So happy with my phone purchase,positive,[],0,0,so happy with my phone purchase,6,0,26.43252540756256,1
+So happy with my flight purchase,positive,[],0,0,so happy with my flight purchase,6,0,26.04007047721374,1
+This movie made my day so much better,positive,[],0,0,this movie made my day so much better,8,0,35.399862536249124,1
+"This movie broke after one day, terrible",negative,[],0,0,this movie broke after one day terrible,7,3,21.073756321848315,0
+The app exceeded all my expectations,positive,[],0,0,the app exceeded all my expectations,6,1,30.324621570018703,1
+Thank you for such a wonderful movie,positive,[],0,0,thank you for such a wonderful movie,7,3,28.026009084057037,1
+Superb product at a great price,positive,[],0,0,superb product at a great price,6,2,34.330704800086316,1
+This order is overpriced and useless,negative,[],0,0,this order is overpriced and useless,6,2,13.74355588493936,0
+This flight is overpriced and useless,negative,[],0,0,this flight is overpriced and useless,6,2,19.340696393132575,0
+The headphones stopped working immediately,negative,[],0,0,the headphones stopped working immediately,5,1,20.57049408501924,0
+Completely unhappy with my service purchase,negative,[],0,0,completely unhappy with my service purchase,6,0,14.052658854567506,0
+Great customer service for my laptop,positive,[],0,0,great customer service for my laptop,6,3,28.220837241381332,1
+"The restaurant never arrived, awful service",negative,[],0,0,the restaurant never arrived awful service,6,1,19.519718552906603,0
+Worst restaurant experience of my life,negative,[],0,0,worst restaurant experience of my life,6,2,21.372276330769047,0
+"The gadget never arrived, awful service",negative,[],0,0,the gadget never arrived awful service,6,1,19.536836708584886,0
+The flight stopped working immediately,negative,[],0,0,the flight stopped working immediately,5,1,17.782326102363402,0
+"This movie is a scam, do not buy",negative,[],0,0,this movie is a scam do not buy,8,2,17.199128094708723,0
+Really impressed with the restaurant,positive,[],0,0,really impressed with the restaurant,5,0,33.53263082376308,1
+Thank you for such a wonderful phone,positive,[],0,0,thank you for such a wonderful phone,7,3,40.57252000571255,1
+"Amazing hotel quality, will buy again",positive,[],0,0,amazing hotel quality will buy again,6,2,33.18996564462892,1
+"This restaurant broke after one day, terrible",negative,[],0,0,this restaurant broke after one day terrible,7,3,19.810901018269863,0
+Superb app at a great price,positive,[],0,0,superb app at a great price,6,2,40.37192509599595,1
+Completely unhappy with my laptop purchase,negative,[],0,0,completely unhappy with my laptop purchase,6,0,14.959218148132269,0
+The gadget exceeded all my expectations,positive,[],0,0,the gadget exceeded all my expectations,6,1,37.56713906175983,1
+So happy with my gadget purchase,positive,[],0,0,so happy with my gadget purchase,6,0,32.10117921980221,1
+"Amazing service quality, will buy again",positive,[],0,0,amazing service quality will buy again,6,2,40.22956486054723,1
+So happy with my product purchase,positive,[],0,0,so happy with my product purchase,6,0,31.059865569418445,1
+"This hotel broke after one day, terrible",negative,[],0,0,this hotel broke after one day terrible,7,3,18.010453651873867,0
+Really impressed with the service,positive,[],0,0,really impressed with the service,5,0,34.332213954511936,1
+"This shoes is a scam, do not buy",negative,[],0,0,this shoes is a scam do not buy,8,2,20.56057664594246,0
+"I regret buying this laptop, poor quality",negative,[],0,0,i regret buying this laptop poor quality,7,2,21.22283509249658,0
+"Amazing delivery quality, will buy again",positive,[],0,0,amazing delivery quality will buy again,6,2,30.840693200324914,1
+"This headphones broke after one day, terrible",negative,[],0,0,this headphones broke after one day terrible,7,3,18.157964441752352,0
+The delivery stopped working immediately,negative,[],0,0,the delivery stopped working immediately,5,1,20.59854963684088,0
+This headphones is fantastic and works perfectly,positive,[],0,0,this headphones is fantastic and works perfectly,7,2,41.9857595704635,1
+Very disappointed with the laptop quality,negative,[],0,0,very disappointed with the laptop quality,6,0,22.85425334614978,0
+This flight made my day so much better,positive,[],0,0,this flight made my day so much better,8,0,41.69091682123734,1
+Completely unhappy with my gadget purchase,negative,[],0,0,completely unhappy with my gadget purchase,6,0,20.345243495272157,0
+Superb shoes at a great price,positive,[],0,0,superb shoes at a great price,6,2,39.94704014694844,1
+"The laptop never arrived, awful service",negative,[],0,0,the laptop never arrived awful service,6,1,19.66910816237452,0
+Completely unhappy with my gadget purchase,negative,[],0,0,completely unhappy with my gadget purchase,6,0,19.840135437982287,0
+"Amazing gadget quality, will buy again",positive,[],0,0,amazing gadget quality will buy again,6,2,29.74658458422231,1
+"I regret buying this restaurant, poor quality",negative,[],0,0,i regret buying this restaurant poor quality,7,2,26.81019234027041,0
+So happy with my headphones purchase,positive,[],0,0,so happy with my headphones purchase,6,0,42.11955550670962,1
+Really impressed with the movie,positive,[],0,0,really impressed with the movie,5,0,35.20422758094826,1
+This shoes is overpriced and useless,negative,[],0,0,this shoes is overpriced and useless,6,2,18.720361613791944,0
+Completely unhappy with my order purchase,negative,[],0,0,completely unhappy with my order purchase,6,0,16.414410762550105,0
+So happy with my flight purchase,positive,[],0,0,so happy with my flight purchase,6,0,32.21338560531474,1
+I absolutely love this phone!,positive,[],0,1,i absolutely love this phone,5,2,47.6601706156789,1
+"The service is exactly what I needed, love it",positive,[],0,0,the service is exactly what i needed love it,9,1,41.19378131041819,1
+This service made my day so much better,positive,[],0,0,this service made my day so much better,8,0,39.11018578734523,1
+So happy with my movie purchase,positive,[],0,0,so happy with my movie purchase,6,0,30.020702957029652,1
+Very disappointed with the gadget quality,negative,[],0,0,very disappointed with the gadget quality,6,0,20.27374564553965,0
+Really impressed with the hotel,positive,[],0,0,really impressed with the hotel,5,0,39.39381910797908,1
+Terrible customer support for my movie,negative,[],0,0,terrible customer support for my movie,6,3,17.787351411956802,0
+The flight exceeded all my expectations,positive,[],0,0,the flight exceeded all my expectations,6,1,36.422351538644335,1
+"Awful experience with this order, avoid it",negative,[],0,0,awful experience with this order avoid it,7,1,16.71818878112419,0
+Great customer service for my gadget,positive,[],0,0,great customer service for my gadget,6,3,26.367989066220623,1
+Really impressed with the app,positive,[],0,0,really impressed with the app,5,0,39.808227884693814,1
+Completely unhappy with my movie purchase,negative,[],0,0,completely unhappy with my movie purchase,6,0,22.93134292291505,0
+"Amazing delivery quality, will buy again",positive,[],0,0,amazing delivery quality will buy again,6,2,36.805616018008784,1
+"This movie is a scam, do not buy",negative,[],0,0,this movie is a scam do not buy,8,2,19.45817725889612,0
+I absolutely love this headphones!,positive,[],0,1,i absolutely love this headphones,5,2,33.39338964515063,1
+This hotel is fantastic and works perfectly,positive,[],0,0,this hotel is fantastic and works perfectly,7,2,40.45257828159892,1
+"Best shoes experience ever, highly recommend",positive,[],0,0,best shoes experience ever highly recommend,6,2,35.00967231560169,1
+Completely unhappy with my restaurant purchase,negative,[],0,0,completely unhappy with my restaurant purchase,6,0,12.455319352169116,0
+"Best order experience ever, highly recommend",positive,[],0,0,best order experience ever highly recommend,6,2,28.99896120134656,1
+Superb product at a great price,positive,[],0,0,superb product at a great price,6,2,27.788145032170434,1
+The phone stopped working immediately,negative,[],0,0,the phone stopped working immediately,5,1,18.67187273647044,0
+This delivery made my day so much better,positive,[],0,0,this delivery made my day so much better,8,0,36.276851753763104,1
+This headphones is overpriced and useless,negative,[],0,0,this headphones is overpriced and useless,6,2,17.015998394220322,0
+"I regret buying this flight, poor quality",negative,[],0,0,i regret buying this flight poor quality,7,2,17.383571215963432,0
+The delivery exceeded all my expectations,positive,[],0,0,the delivery exceeded all my expectations,6,1,33.96573963965021,1
+This shoes is overpriced and useless,negative,[],0,0,this shoes is overpriced and useless,6,2,18.021945055449734,0
+"Awful experience with this headphones, avoid it",negative,[],0,0,awful experience with this headphones avoid it,7,1,21.95735029215293,0
+I absolutely love this shoes!,positive,[],0,1,i absolutely love this shoes,5,2,29.402532373397364,1
+"I hate this hotel, total waste of money",negative,[],0,0,i hate this hotel total waste of money,8,2,21.537012338283937,0
+Terrible customer support for my movie,negative,[],0,0,terrible customer support for my movie,6,3,11.473313431681433,0
+Worst phone experience of my life,negative,[],0,0,worst phone experience of my life,6,2,16.193182807773233,0
+So happy with my order purchase,positive,[],0,0,so happy with my order purchase,6,0,42.23016028296095,1
+Superb app at a great price,positive,[],0,0,superb app at a great price,6,2,32.571387924281005,1
+Great customer service for my hotel,positive,[],0,0,great customer service for my hotel,6,3,32.993183191556454,1
+"The app never arrived, awful service",negative,[],0,0,the app never arrived awful service,6,1,8.230897295049873,0
+"I hate this app, total waste of money",negative,[],0,0,i hate this app total waste of money,8,2,14.498496892915867,0
+"Best headphones experience ever, highly recommend",positive,[],0,0,best headphones experience ever highly recommend,6,2,28.429541063947678,1
+Great customer service for my delivery,positive,[],0,0,great customer service for my delivery,6,3,32.26935709777179,1
+So happy with my order purchase,positive,[],0,0,so happy with my order purchase,6,0,39.561817250880566,1
+The laptop stopped working immediately,negative,[],0,0,the laptop stopped working immediately,5,1,18.046303086487647,0
+"I hate this headphones, total waste of money",negative,[],0,0,i hate this headphones total waste of money,8,2,23.28751969432451,0
+This hotel is overpriced and useless,negative,[],0,0,this hotel is overpriced and useless,6,2,15.476553029662856,0
+So happy with my hotel purchase,positive,[],0,0,so happy with my hotel purchase,6,0,34.565356659747884,1
+"The flight never arrived, awful service",negative,[],0,0,the flight never arrived awful service,6,1,20.86401149790269,0
+Great customer service for my phone,positive,[],0,0,great customer service for my phone,6,3,33.691502782066834,1
+"I hate this app, total waste of money",negative,[],0,0,i hate this app total waste of money,8,2,16.776769189255518,0
+"The hotel is exactly what I needed, love it",positive,[],0,0,the hotel is exactly what i needed love it,9,1,34.909889640372626,1
+Really impressed with the movie,positive,[],0,0,really impressed with the movie,5,0,38.620132535366466,1
+Thank you for such a wonderful phone,positive,[],0,0,thank you for such a wonderful phone,7,3,27.53826662049837,1
+"The hotel never arrived, awful service",negative,[],0,0,the hotel never arrived awful service,6,1,18.175694579017744,0
+The service stopped working immediately,negative,[],0,0,the service stopped working immediately,5,1,19.09445858136226,0
+"Amazing flight quality, will buy again",positive,[],0,0,amazing flight quality will buy again,6,2,24.363763585095107,1
+Worst hotel experience of my life,negative,[],0,0,worst hotel experience of my life,6,2,16.598017624177153,0
+This order made my day so much better,positive,[],0,0,this order made my day so much better,8,0,27.520802369559192,1
+"I regret buying this hotel, poor quality",negative,[],0,0,i regret buying this hotel poor quality,7,2,27.05648384306943,0
+Worst laptop experience of my life,negative,[],0,0,worst laptop experience of my life,6,2,25.57281020660389,0
+This app is overpriced and useless,negative,[],0,0,this app is overpriced and useless,6,2,19.90237667781459,0
+"I regret buying this hotel, poor quality",negative,[],0,0,i regret buying this hotel poor quality,7,2,25.352020059002527,0
+Very disappointed with the shoes quality,negative,[],0,0,very disappointed with the shoes quality,6,0,29.162396906632015,0
+"Best movie experience ever, highly recommend",positive,[],0,0,best movie experience ever highly recommend,6,2,41.58417182064725,1
+The delivery stopped working immediately,negative,[],0,0,the delivery stopped working immediately,5,1,17.73857229076629,0
+"Awful experience with this service, avoid it",negative,[],0,0,awful experience with this service avoid it,7,1,26.181411191452213,0
+"This restaurant broke after one day, terrible",negative,[],0,0,this restaurant broke after one day terrible,7,3,30.346497848311756,0
+Very disappointed with the service quality,negative,[],0,0,very disappointed with the service quality,6,0,29.73354599217783,0
+So happy with my phone purchase,positive,[],0,0,so happy with my phone purchase,6,0,34.39534778753279,1
+I absolutely love this app!,positive,[],0,1,i absolutely love this app,5,2,37.94399189824482,1
+Superb flight at a great price,positive,[],0,0,superb flight at a great price,6,2,28.389049221783072,1
+Terrible customer support for my laptop,negative,[],0,0,terrible customer support for my laptop,6,3,24.46450005485206,0
+I absolutely love this hotel!,positive,[],0,1,i absolutely love this hotel,5,2,38.78601479909895,1
+"The headphones is exactly what I needed, love it",positive,[],0,0,the headphones is exactly what i needed love it,9,1,30.74833280648923,1
+Superb gadget at a great price,positive,[],0,0,superb gadget at a great price,6,2,41.36953630860296,1
+So happy with my phone purchase,positive,[],0,0,so happy with my phone purchase,6,0,33.936561615672545,1
+Superb app at a great price,positive,[],0,0,superb app at a great price,6,2,37.04712911875234,1
+"Awful experience with this delivery, avoid it",negative,[],0,0,awful experience with this delivery avoid it,7,1,15.103820301338228,0
+Very disappointed with the restaurant quality,negative,[],0,0,very disappointed with the restaurant quality,6,0,21.58024903943749,0
+This app is fantastic and works perfectly,positive,[],0,0,this app is fantastic and works perfectly,7,2,35.398073929558656,1
+"I hate this restaurant, total waste of money",negative,[],0,0,i hate this restaurant total waste of money,8,2,15.301452923346897,0
+"I regret buying this order, poor quality",negative,[],0,0,i regret buying this order poor quality,7,2,13.160201112527137,0
+"The app is exactly what I needed, love it",positive,[],0,0,the app is exactly what i needed love it,9,1,31.42082946804736,1
+"Best laptop experience ever, highly recommend",positive,[],0,0,best laptop experience ever highly recommend,6,2,31.88109550032661,1
+"I regret buying this order, poor quality",negative,[],0,0,i regret buying this order poor quality,7,2,23.091221158756532,0
+The order stopped working immediately,negative,[],0,0,the order stopped working immediately,5,1,15.391546063183494,0
+I absolutely love this headphones!,positive,[],0,1,i absolutely love this headphones,5,2,37.24908076952996,1
+Very disappointed with the flight quality,negative,[],0,0,very disappointed with the flight quality,6,0,16.711524413816946,0
+The restaurant stopped working immediately,negative,[],0,0,the restaurant stopped working immediately,5,1,17.64310646800663,0
+Very disappointed with the phone quality,negative,[],0,0,very disappointed with the phone quality,6,0,21.249002089906156,0
+The movie stopped working immediately,negative,[],0,0,the movie stopped working immediately,5,1,10.162518803944252,0
+Worst app experience of my life,negative,[],0,0,worst app experience of my life,6,2,23.509550413278042,0
+Terrible customer support for my laptop,negative,[],0,0,terrible customer support for my laptop,6,3,13.519318086431186,0
+The headphones exceeded all my expectations,positive,[],0,0,the headphones exceeded all my expectations,6,1,39.239396809260846,1
+So happy with my order purchase,positive,[],0,0,so happy with my order purchase,6,0,33.69355771357239,1
+"Awful experience with this hotel, avoid it",negative,[],0,0,awful experience with this hotel avoid it,7,1,21.3068961415357,0
+Superb hotel at a great price,positive,[],0,0,superb hotel at a great price,6,2,44.6809537335495,1
+"This laptop broke after one day, terrible",negative,[],0,0,this laptop broke after one day terrible,7,3,20.45454190260556,0
+The delivery stopped working immediately,negative,[],0,0,the delivery stopped working immediately,5,1,18.533402474499738,0
+Really impressed with the app,positive,[],0,0,really impressed with the app,5,0,30.63003590552054,1
+Superb flight at a great price,positive,[],0,0,superb flight at a great price,6,2,27.386230020128735,1
+"The movie never arrived, awful service",negative,[],0,0,the movie never arrived awful service,6,1,15.90036121295301,0
+"The laptop is exactly what I needed, love it",positive,[],0,0,the laptop is exactly what i needed love it,9,1,40.206729445889586,1
+"I hate this hotel, total waste of money",negative,[],0,0,i hate this hotel total waste of money,8,2,28.52223218811966,0
+"This product broke after one day, terrible",negative,[],0,0,this product broke after one day terrible,7,3,12.688915353112717,0
+This flight made my day so much better,positive,[],0,0,this flight made my day so much better,8,0,32.937738653135,1
+I absolutely love this service!,positive,[],0,1,i absolutely love this service,5,2,37.798356256653136,1
+This order made my day so much better,positive,[],0,0,this order made my day so much better,8,0,32.82749784214378,1
+"The flight is exactly what I needed, love it",positive,[],0,0,the flight is exactly what i needed love it,9,1,34.507183438188676,1
+"The laptop is exactly what I needed, love it",positive,[],0,0,the laptop is exactly what i needed love it,9,1,30.259694551910524,1
+This phone made my day so much better,positive,[],0,0,this phone made my day so much better,8,0,44.69253163793733,1
+"Best movie experience ever, highly recommend",positive,[],0,0,best movie experience ever highly recommend,6,2,32.3784683252948,1
+Terrible customer support for my product,negative,[],0,0,terrible customer support for my product,6,3,27.420307503433243,0
+Very disappointed with the gadget quality,negative,[],0,0,very disappointed with the gadget quality,6,0,11.226211369626359,0
+"The delivery never arrived, awful service",negative,[],0,0,the delivery never arrived awful service,6,1,19.043857026432676,0
+Completely unhappy with my movie purchase,negative,[],0,0,completely unhappy with my movie purchase,6,0,20.72258230431049,0
+"This order broke after one day, terrible",negative,[],0,0,this order broke after one day terrible,7,3,11.581703429461525,0
+The headphones exceeded all my expectations,positive,[],0,0,the headphones exceeded all my expectations,6,1,31.320640909507173,1
+"I hate this hotel, total waste of money",negative,[],0,0,i hate this hotel total waste of money,8,2,25.202934423047665,0
+"The movie never arrived, awful service",negative,[],0,0,the movie never arrived awful service,6,1,17.497776383152008,0
+This restaurant is fantastic and works perfectly,positive,[],0,0,this restaurant is fantastic and works perfectly,7,2,32.53479386464843,1
+"This laptop broke after one day, terrible",negative,[],0,0,this laptop broke after one day terrible,7,3,27.743431467959766,0
+This gadget made my day so much better,positive,[],0,0,this gadget made my day so much better,8,0,41.922034640425906,1
+"The hotel never arrived, awful service",negative,[],0,0,the hotel never arrived awful service,6,1,24.502600798476323,0
+The delivery exceeded all my expectations,positive,[],0,0,the delivery exceeded all my expectations,6,1,35.169207897066876,1
+Completely unhappy with my phone purchase,negative,[],0,0,completely unhappy with my phone purchase,6,0,19.236836347088246,0
+This flight is fantastic and works perfectly,positive,[],0,0,this flight is fantastic and works perfectly,7,2,35.17773856878645,1
+Worst order experience of my life,negative,[],0,0,worst order experience of my life,6,2,16.199714354937516,0
+Thank you for such a wonderful hotel,positive,[],0,0,thank you for such a wonderful hotel,7,3,37.04156063735962,1
+"Amazing shoes quality, will buy again",positive,[],0,0,amazing shoes quality will buy again,6,2,36.005974238648086,1
+"Best movie experience ever, highly recommend",positive,[],0,0,best movie experience ever highly recommend,6,2,29.343467924841946,1
+"The headphones never arrived, awful service",negative,[],0,0,the headphones never arrived awful service,6,1,22.098349021382308,0
+Very disappointed with the order quality,negative,[],0,0,very disappointed with the order quality,6,0,24.05793940631533,0
+I absolutely love this product!,positive,[],0,1,i absolutely love this product,5,2,42.015562832280466,1
+Superb laptop at a great price,positive,[],0,0,superb laptop at a great price,6,2,33.17988501556299,1
+"The flight never arrived, awful service",negative,[],0,0,the flight never arrived awful service,6,1,11.349235133157235,0
+Thank you for such a wonderful service,positive,[],0,0,thank you for such a wonderful service,7,3,51.44770099500027,1
+Very disappointed with the restaurant quality,negative,[],0,0,very disappointed with the restaurant quality,6,0,22.096806979179767,0
+Terrible customer support for my order,negative,[],0,0,terrible customer support for my order,6,3,22.943304253097114,0
+Worst movie experience of my life,negative,[],0,0,worst movie experience of my life,6,2,18.52384165924762,0
+"Awful experience with this flight, avoid it",negative,[],0,0,awful experience with this flight avoid it,7,1,13.34429822072067,0
+Completely unhappy with my order purchase,negative,[],0,0,completely unhappy with my order purchase,6,0,16.29347428889261,0
+Really impressed with the gadget,positive,[],0,0,really impressed with the gadget,5,0,30.393053836903427,1
+So happy with my gadget purchase,positive,[],0,0,so happy with my gadget purchase,6,0,37.802077458776765,1
+So happy with my laptop purchase,positive,[],0,0,so happy with my laptop purchase,6,0,32.58787532601153,1
+I absolutely love this order!,positive,[],0,1,i absolutely love this order,5,2,47.91676172108756,1
+Really impressed with the flight,positive,[],0,0,really impressed with the flight,5,0,24.80942741359425,1
+I absolutely love this restaurant!,positive,[],0,1,i absolutely love this restaurant,5,2,39.07879350729735,1
+This movie made my day so much better,positive,[],0,0,this movie made my day so much better,8,0,32.42210421074032,1
+"Amazing restaurant quality, will buy again",positive,[],0,0,amazing restaurant quality will buy again,6,2,39.31767111311695,1
+"I regret buying this order, poor quality",negative,[],0,0,i regret buying this order poor quality,7,2,8.949608893442909,0
+"The shoes never arrived, awful service",negative,[],0,0,the shoes never arrived awful service,6,1,13.883386456113895,0
+"This restaurant is a scam, do not buy",negative,[],0,0,this restaurant is a scam do not buy,8,2,24.761729063779946,0
+This gadget is overpriced and useless,negative,[],0,0,this gadget is overpriced and useless,6,2,23.39207624364268,0
+Worst delivery experience of my life,negative,[],0,0,worst delivery experience of my life,6,2,12.153408246339234,0
+"The movie never arrived, awful service",negative,[],0,0,the movie never arrived awful service,6,1,21.349562342451307,0
+"I hate this headphones, total waste of money",negative,[],0,0,i hate this headphones total waste of money,8,2,28.475192346283784,0
+"This service broke after one day, terrible",negative,[],0,0,this service broke after one day terrible,7,3,18.685319730455678,0
+"This product broke after one day, terrible",negative,[],0,0,this product broke after one day terrible,7,3,19.655045126430835,0
+"I hate this laptop, total waste of money",negative,[],0,0,i hate this laptop total waste of money,8,2,11.724476695051877,0
+Terrible customer support for my gadget,negative,[],0,0,terrible customer support for my gadget,6,3,15.694654135304244,0
+Really impressed with the restaurant,positive,[],0,0,really impressed with the restaurant,5,0,26.435220876391412,1
+Superb restaurant at a great price,positive,[],0,0,superb restaurant at a great price,6,2,36.75107974528444,1
+So happy with my phone purchase,positive,[],0,0,so happy with my phone purchase,6,0,33.901088313857805,1
+Really impressed with the shoes,positive,[],0,0,really impressed with the shoes,5,0,28.081049197526863,1
+The gadget exceeded all my expectations,positive,[],0,0,the gadget exceeded all my expectations,6,1,36.823514527492634,1
+The headphones stopped working immediately,negative,[],0,0,the headphones stopped working immediately,5,1,23.574719390335694,0
+Superb flight at a great price,positive,[],0,0,superb flight at a great price,6,2,40.419354164588626,1
+Superb flight at a great price,positive,[],0,0,superb flight at a great price,6,2,29.919458771921146,1
+Terrible customer support for my laptop,negative,[],0,0,terrible customer support for my laptop,6,3,17.13972415616931,0
+This restaurant made my day so much better,positive,[],0,0,this restaurant made my day so much better,8,0,34.01501155986426,1
+Thank you for such a wonderful restaurant,positive,[],0,0,thank you for such a wonderful restaurant,7,3,38.16816378372049,1
+So happy with my restaurant purchase,positive,[],0,0,so happy with my restaurant purchase,6,0,36.09231811457911,1
+This flight is overpriced and useless,negative,[],0,0,this flight is overpriced and useless,6,2,21.669615699909528,0
+"I hate this order, total waste of money",negative,[],0,0,i hate this order total waste of money,8,2,23.561838701678635,0
+This service made my day so much better,positive,[],0,0,this service made my day so much better,8,0,49.60499467314507,1
+Completely unhappy with my laptop purchase,negative,[],0,0,completely unhappy with my laptop purchase,6,0,15.939720092828427,0
+The restaurant stopped working immediately,negative,[],0,0,the restaurant stopped working immediately,5,1,19.193939954765717,0
+Very disappointed with the phone quality,negative,[],0,0,very disappointed with the phone quality,6,0,9.875411003767935,0
+"I regret buying this headphones, poor quality",negative,[],0,0,i regret buying this headphones poor quality,7,2,22.528799658712092,0
+"Awful experience with this service, avoid it",negative,[],0,0,awful experience with this service avoid it,7,1,15.71984121630936,0
+Very disappointed with the service quality,negative,[],0,0,very disappointed with the service quality,6,0,23.34733101033389,0
+"The movie never arrived, awful service",negative,[],0,0,the movie never arrived awful service,6,1,14.256716905450974,0
+Very disappointed with the product quality,negative,[],0,0,very disappointed with the product quality,6,0,25.100380182032303,0
+"This service broke after one day, terrible",negative,[],0,0,this service broke after one day terrible,7,3,11.56601071226562,0
+I absolutely love this service!,positive,[],0,1,i absolutely love this service,5,2,42.858850431944795,1
+So happy with my restaurant purchase,positive,[],0,0,so happy with my restaurant purchase,6,0,26.984975702323773,1
+This restaurant made my day so much better,positive,[],0,0,this restaurant made my day so much better,8,0,31.493313655492372,1
+Thank you for such a wonderful restaurant,positive,[],0,0,thank you for such a wonderful restaurant,7,3,33.54782288542462,1
+"Amazing order quality, will buy again",positive,[],0,0,amazing order quality will buy again,6,2,34.35297001728409,1
+"This movie is a scam, do not buy",negative,[],0,0,this movie is a scam do not buy,8,2,25.071490223223535,0
+"This order broke after one day, terrible",negative,[],0,0,this order broke after one day terrible,7,3,17.373926122829126,0
+"Amazing order quality, will buy again",positive,[],0,0,amazing order quality will buy again,6,2,35.8461653630814,1
+"Awful experience with this delivery, avoid it",negative,[],0,0,awful experience with this delivery avoid it,7,1,21.01673272435529,0
+So happy with my hotel purchase,positive,[],0,0,so happy with my hotel purchase,6,0,31.294311814172982,1
+Worst laptop experience of my life,negative,[],0,0,worst laptop experience of my life,6,2,19.778022462630595,0
+The laptop stopped working immediately,negative,[],0,0,the laptop stopped working immediately,5,1,15.759889619069783,0
+Really impressed with the restaurant,positive,[],0,0,really impressed with the restaurant,5,0,30.044269949149864,1
+The gadget stopped working immediately,negative,[],0,0,the gadget stopped working immediately,5,1,18.671191824691604,0
+"The flight is exactly what I needed, love it",positive,[],0,0,the flight is exactly what i needed love it,9,1,44.682023925952514,1
+The gadget exceeded all my expectations,positive,[],0,0,the gadget exceeded all my expectations,6,1,37.865750341195856,1
+"I regret buying this phone, poor quality",negative,[],0,0,i regret buying this phone poor quality,7,2,20.52666861771902,0
+"This laptop broke after one day, terrible",negative,[],0,0,this laptop broke after one day terrible,7,3,18.452195882867716,0
+Completely unhappy with my order purchase,negative,[],0,0,completely unhappy with my order purchase,6,0,15.088758870183618,0
+Completely unhappy with my flight purchase,negative,[],0,0,completely unhappy with my flight purchase,6,0,14.313007828087741,0
+"Awful experience with this shoes, avoid it",negative,[],0,0,awful experience with this shoes avoid it,7,1,11.634547806776506,0
+This headphones is overpriced and useless,negative,[],0,0,this headphones is overpriced and useless,6,2,18.07474921187857,0
+The headphones exceeded all my expectations,positive,[],0,0,the headphones exceeded all my expectations,6,1,34.26518599836767,1
+"I hate this hotel, total waste of money",negative,[],0,0,i hate this hotel total waste of money,8,2,20.44526717650442,0
