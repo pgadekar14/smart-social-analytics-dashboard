@@ -121,7 +121,7 @@ def main():
     )
 
     print("\nVectorizing text (TF-IDF)...")
-    vectorizer = TfidfVectorizer(max_features=5000, ngram_range=(1, 2))
+    vectorizer = TfidfVectorizer(max_features=5000, ngram_range=(1, 2), stop_words="english")
     X_train_vec = vectorizer.fit_transform(X_train)
     X_test_vec = vectorizer.transform(X_test)
 
