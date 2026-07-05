@@ -184,7 +184,15 @@ elif page == "Batch Analysis (Upload CSV)":
                     confs.append(c)
                 data["predicted_sentiment"] = preds
                 data["confidence"] = confs
-            st.dataframe(data.head(20))
+            
+                st.dataframe(
+                    data.head(20),
+                        column_config={
+                        "confidence": st.column_config.NumberColumn(
+                        "confidence", format="percent"
+                            )
+                        },
+                    )
             fig = px.pie(data, names="predicted_sentiment", title="Batch Sentiment Distribution")
             st.plotly_chart(fig, use_container_width=True)
             st.download_button("Download Results as CSV",
