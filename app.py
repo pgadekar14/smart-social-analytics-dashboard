@@ -211,7 +211,14 @@ elif page == "Batch Analysis (Upload CSV)":
                     confs.append(c)
                 normalized_data["predicted_sentiment"] = preds
                 normalized_data["confidence"] = confs
-            st.dataframe(normalized_data.head(20))
+            st.dataframe(
+                normalized_data.head(20),
+                column_config={
+                    "confidence": st.column_config.NumberColumn(
+                        "confidence", format="percent"
+                    )
+                },
+            )
             fig = px.pie(normalized_data, names="predicted_sentiment", title="Batch Sentiment Distribution")
             st.plotly_chart(fig, use_container_width=True)
             st.download_button("Download Results as CSV",
@@ -303,7 +310,7 @@ elif page == "Engagement Prediction":
         "**Note on data:** Sentiment140 doesn't include real likes/comments/shares. "
         "This module predicts a *simulated* engagement score derived from post features "
         "(length, hashtags, exclamation marks, sentiment) — built to demonstrate a regression "
-        "ML module, not to reflect real social media engagement. State this clearly in your report."
+        "ML module, not to reflect real social media engagement."
     )
     eng_model = load_engagement_model()
     user_text = st.text_area("Enter a post to estimate engagement for:", height=120)
