@@ -14,11 +14,13 @@ Deploy:
 import os
 import re
 import string
+from collections import Counter
+from pathlib import Path
+
 import joblib
 import pandas as pd
 import plotly.express as px
 import streamlit as st
-from collections import Counter
 
 from watson_helper import get_watson_sentiment
 import db_helper
@@ -27,19 +29,22 @@ db_helper.init_db()
 
 st.set_page_config(page_title="Social Media Sentiment Analytics", layout="wide")
 
-MODEL_PATH = "models/sentiment_model.pkl"
-VEC_PATH = "models/vectorizer.pkl"
-SAMPLE_DATA_PATH = "data/clean_sample.csv"
-KMEANS_PATH = "models/kmeans_model.pkl"
-ENGAGEMENT_MODEL_PATH = "models/engagement_model.pkl"
-CLUSTER_SUMMARY_PATH = "data/cluster_summary.csv"
-TOP_HASHTAGS_PATH = "data/top_hashtags.csv"
+BASE_DIR = Path(__file__).resolve().parent
+MODEL_PATH = BASE_DIR / "models" / "sentiment_model.pkl"
+VEC_PATH = BASE_DIR / "models" / "vectorizer.pkl"
+SAMPLE_DATA_PATH = BASE_DIR / "data" / "clean_sample.csv"
+KMEANS_PATH = BASE_DIR / "models" / "kmeans_model.pkl"
+ENGAGEMENT_MODEL_PATH = BASE_DIR / "models" / "engagement_model.pkl"
+CLUSTER_SUMMARY_PATH = BASE_DIR / "data" / "cluster_summary.csv"
+TOP_HASHTAGS_PATH = BASE_DIR / "data" / "top_hashtags.csv"
+TEXT_COLUMNS = ("text", "tweet_text", "full_text", "content", "body")
+XQUIK_METADATA_COLUMNS = ("created_at", "query", "username", "author_username", "url")
 
 
 # ---------- Helpers ----------
 @st.cache_resource
 def load_model():
-    if not (os.path.exists(MODEL_PATH) and os.path.exists(VEC_PATH)):
+    if not (MODEL_PATH.exists() and VEC_PATH.exists()):
         return None, None
     model = joblib.load(MODEL_PATH)
     vectorizer = joblib.load(VEC_PATH)
@@ -67,29 +72,45 @@ def predict_sentiment(text, model, vectorizer):
 
 @st.cache_data
 def load_sample_data():
-    if os.path.exists(SAMPLE_DATA_PATH):
+    if SAMPLE_DATA_PATH.exists():
         return pd.read_csv(SAMPLE_DATA_PATH)
     return None
 
 
 @st.cache_resource
 def load_kmeans():
-    return joblib.load(KMEANS_PATH) if os.path.exists(KMEANS_PATH) else None
+    return joblib.load(KMEANS_PATH) if KMEANS_PATH.exists() else None
 
 
 @st.cache_resource
 def load_engagement_model():
-    return joblib.load(ENGAGEMENT_MODEL_PATH) if os.path.exists(ENGAGEMENT_MODEL_PATH) else None
+    return joblib.load(ENGAGEMENT_MODEL_PATH) if ENGAGEMENT_MODEL_PATH.exists() else None
 
 
 @st.cache_data
 def load_cluster_summary():
-    return pd.read_csv(CLUSTER_SUMMARY_PATH) if os.path.exists(CLUSTER_SUMMARY_PATH) else None
+    return pd.read_csv(CLUSTER_SUMMARY_PATH) if CLUSTER_SUMMARY_PATH.exists() else None
 
 
 @st.cache_data
 def load_top_hashtags():
-    return pd.read_csv(TOP_HASHTAGS_PATH) if os.path.exists(TOP_HASHTAGS_PATH) else None
+    return pd.read_csv(TOP_HASHTAGS_PATH) if TOP_HASHTAGS_PATH.exists() else None
+
+
+def normalize_batch_input(data):
+    text_column = next((column for column in TEXT_COLUMNS if column in data.columns), None)
+    if text_column is None:
+        return None, "CSV must include one text-like column: " + ", ".join(TEXT_COLUMNS)
+
+    normalized = pd.DataFrame({"text": data[text_column].astype(str).str.strip()})
+    for column in XQUIK_METADATA_COLUMNS:
+        if column in data.columns:
+            normalized[column] = data[column]
+
+    normalized = normalized[normalized["text"] != ""]
+    if normalized.empty:
+        return None, "CSV text rows are empty after trimming whitespace."
+    return normalized, None
 
 
 # ---------- Sidebar ----------
@@ -169,34 +190,39 @@ elif page == "Live Prediction":
 # ---------- Page 3: Batch Analysis ----------
 elif page == "Batch Analysis (Upload CSV)":
     st.title("📁 Batch Sentiment Analysis")
-    st.markdown("Upload a CSV with a column named **text** containing posts/reviews to analyze in bulk.")
+    st.markdown(
+        "Upload a CSV with social posts or reviews to analyze in bulk. Xquik tweet/search "
+        "exports are supported when they include a text-like column."
+    )
     uploaded = st.file_uploader("Upload CSV", type=["csv"])
-    if uploaded is not None and model is not None:
+    if uploaded is not None:
         data = pd.read_csv(uploaded)
-        if "text" not in data.columns:
-            st.error("CSV must contain a column named 'text'.")
+        normalized_data, error = normalize_batch_input(data)
+        if model is None:
+            st.error("Model not loaded. Run `python train_model.py` first.")
+        elif error:
+            st.error(error)
         else:
             with st.spinner("Analyzing..."):
                 preds, confs = [], []
-                for t in data["text"].astype(str):
+                for t in normalized_data["text"].astype(str):
                     p, c = predict_sentiment(t, model, vectorizer)
                     preds.append(p)
                     confs.append(c)
-                data["predicted_sentiment"] = preds
-                data["confidence"] = confs
-            
-                st.dataframe(
-                    data.head(20),
-                        column_config={
-                        "confidence": st.column_config.NumberColumn(
+                normalized_data["predicted_sentiment"] = preds
+                normalized_data["confidence"] = confs
+            st.dataframe(
+                normalized_data.head(20),
+                column_config={
+                    "confidence": st.column_config.NumberColumn(
                         "confidence", format="percent"
-                            )
-                        },
                     )
-            fig = px.pie(data, names="predicted_sentiment", title="Batch Sentiment Distribution")
+                },
+            )
+            fig = px.pie(normalized_data, names="predicted_sentiment", title="Batch Sentiment Distribution")
             st.plotly_chart(fig, use_container_width=True)
             st.download_button("Download Results as CSV",
-                                data.to_csv(index=False).encode("utf-8"),
+                                normalized_data.to_csv(index=False).encode("utf-8"),
                                 "sentiment_results.csv", "text/csv")
 
 # ---------- Page 4: Watson Comparison ----------

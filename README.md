@@ -38,6 +38,13 @@ sentiment_project/
 | 5 | Watson Comparison | IBM Watson NLU API | Side-by-side validation against your own model |
 | 6 | Prediction History | SQLite (RDBMS) | Logs every live prediction; Create/Read/Delete demonstrated |
 
+### Xquik export support
+
+The batch analysis page also accepts Xquik tweet/search CSV exports. Use any of
+these text columns: `text`, `tweet_text`, `full_text`, `content`, or `body`.
+Optional metadata such as `created_at`, `query`, `username`, `author_username`,
+and `url` is preserved in the downloaded result file.
+
 ### Report fields (final)
 
 | Field | What to write |
@@ -68,6 +75,9 @@ pip install -r requirements.txt
 python train_model.py        # trains + saves all models (a few minutes on real data)
 streamlit run app.py         # or: python -m streamlit run app.py
 ```
+
+The app now resolves model and data files relative to `app.py`, so the same
+commands work from the project root and from Streamlit deployment runners.
 
 **Windows note:** if `streamlit run app.py` gives `CommandNotFoundException`, use `python -m streamlit run app.py` instead — this avoids a PATH issue common on Windows installs.
 
